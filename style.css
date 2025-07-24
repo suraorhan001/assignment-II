@@ -21,8 +21,16 @@
 body{
     background-color: rgba(185, 203, 236, 0.2);
 }
+section{
+    margin-top: 100px;
+}
 .container{
     width:72rem;
+    
+    
+    
+    
+    
     margin: 0 auto;
 
 }
@@ -37,6 +45,33 @@ nav ul{
     gap: 1.8rem;
     align-items: center;
 }
+.nav-hero{
+    display: flex;
+    
+    padding: 30px;
+    align-items: center;
+}
+.nav-description
+   {
+    height: 350px;
+    width: 60%;
+    padding-top: 60px;
+
+}
+.nav-hero img{
+    width: 40%;
+    height: 350px;
+    
+}
+.nav-description h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+.nav-description p{
+    font-size: 1.2rem;
+    color: #a9a4a4;
+}
+
 
 @media screen and (max-width:576px){
 
@@ -63,5 +98,13 @@ nav ul{
    .li-last{
     padding-left: 30px;
    }
-    
+    .nav-hero{
+        flex-direction: column-reverse;
+        margin: 0;
+        padding: 0;
+    }
+    .nav-description{
+        padding: 0;
+        margin: 0;
+    }
 }
