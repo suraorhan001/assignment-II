@@ -24,21 +24,13 @@ body{
 section{
     margin-top: 100px;
 }
-.container{
-    width:72rem;
-    
-    
-    
-    
-    
-    margin: 0 auto;
 
-}
+
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin: 20px 60px;
 }
 nav ul{
     display: flex;
@@ -47,7 +39,8 @@ nav ul{
 }
 .nav-hero{
     display: flex;
-    
+    width: 1200px;
+    margin: 0 auto;
     padding: 30px;
     align-items: center;
 }
@@ -77,15 +70,13 @@ nav ul{
 
     nav{
         margin: 10px;
-        justify-content:space-between;
-        
-        align-items: center;
     } 
-    nav img{
-       width:30%;
+    .bxs-cart{
+        font-size: 1.5rem;
     }
+   
     nav ul li{
-        font-size: 2.9rem;
+        font-size: 1.2rem;
     
     }
 
@@ -95,16 +86,27 @@ nav ul{
    .li-middle{
     display: none;
    }
-   .li-last{
-    padding-left: 30px;
-   }
+  
+   
     .nav-hero{
         flex-direction: column-reverse;
         margin: 0;
         padding: 0;
+        width:100%;
     }
+
     .nav-description{
         padding: 0;
-        margin: 0;
+        margin:20px 0 ;
+    }
+    .nav-description h1{
+        font-size: 2.5rem;
+    }
+    .nav-description p{
+        font-size: 13px;
+    }
+    .nav-hero img{
+        height: 250px;
+        width: 90%;
     }
 }
